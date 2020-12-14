@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/icon_left"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:text="Order"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/aftserop_tab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:tabIndicatorColor="#FC526A"
+                app:tabIndicatorHeight="2dp"
+                app:tabSelectedTextColor="#FC526A"
+                app:tabTextColor="#FC526A" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+</LinearLayout>

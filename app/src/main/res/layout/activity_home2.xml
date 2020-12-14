@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <au.edu.sydney.comp5216.makeup.NoScrollViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:textSize="12sp"
+            android:textColor="#8D93AB"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@mipmap/icon_card"
+            android:text="Order"  />
+
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:textSize="12sp"
+            android:textColor="#8D93AB"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@mipmap/icon_user"
+            android:text="Mine"  />
+    </RadioGroup>
+
+
+</LinearLayout>

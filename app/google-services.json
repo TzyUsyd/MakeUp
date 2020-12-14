@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "335470927673",
+    "firebase_url": "https://makeup-60d81.firebaseio.com",
+    "project_id": "makeup-60d81",
+    "storage_bucket": "makeup-60d81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335470927673:android:d5da53486eab7ebae0d2e8",
+        "android_client_info": {
+          "package_name": "au.edu.sydney.comp5216.makeup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335470927673-8ir84paer9idvq0s54ip4cc0b2ocpksv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "au.edu.sydney.comp5216.makeup",
+            "certificate_hash": "3609545552c28a9913de25acda3772583ba80b7c"
+          }
+        },
+        {
+          "client_id": "335470927673-udj8uoi5d2ckfrim1hu4pg4ctmrqks5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd1eI_tLYq-vz6w5X7iFuKpAOWPz5gP3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335470927673-udj8uoi5d2ckfrim1hu4pg4ctmrqks5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
